@@ -1,0 +1,631 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.forget-password{
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    position: fixed;
+ max-width: 1312px;
+    width: 100%;
+height: 861px;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+z-index: -1;
+opacity: -1;
+}
+.forget-password-info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.forget-password-close{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    fill: #FFFFFF;
+    width: 26px;
+height: 26px;
+}
+.forget-password-active{
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 1;
+    z-index: 100;
+}
+.forget-password-left{
+    background: #FFFFFF;
+    border-radius: 8px 0 0 8px;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.forget-password-left img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+height: 48px;
+-o-object-fit: contain;
+   object-fit: contain;
+margin-top: 35%;
+}
+.forget-password-left h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 35px;
+    color: #D92E15;
+    text-align: center;
+}
+.forget-password-left p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 5px;
+    color: #858585;
+    margin-top: 15px;
+}
+.forget-password-left input{
+    width: 100%;
+    height: 53px;
+    background: #F1F1F1;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 10px;
+}
+.forget-password-left input::-webkit-input-placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    color: #A7A7A7;
+    background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/contact-us\ \(1\)\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+}
+.forget-password-left input::-moz-placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    color: #A7A7A7;
+    background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/contact-us\ \(1\)\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+}
+.forget-password-left input:-ms-input-placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    color: #A7A7A7;
+    background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/contact-us\ \(1\)\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+}
+.forget-password-left input::-ms-input-placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    color: #A7A7A7;
+    background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/contact-us\ \(1\)\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+}
+.forget-password-left input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    color: #A7A7A7;
+    background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/contact-us\ \(1\)\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+}
+.forget-password-left input::before{
+content: "";
+position: absolute;
+width: 26px;
+height: 26px;
+background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/contact-us\ \(1\)\ 1.svg);
+top: 0;
+bottom: 0;
+right: 15px;
+margin: auto 0;
+
+}
+button{
+    height: 52px;
+    width: 60%;
+    background: #D92E15;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+.forget-password-right{
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#D31027), to(#EA384D));
+    background: -o-linear-gradient(left, #D31027 0%, #EA384D 100%);
+    background: linear-gradient(90deg, #D31027 0%, #EA384D 100%);
+border-radius: 0 8px 8px 0;
+padding: 5%;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.forget-password-right h5{
+    font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+text-align: center;
+margin-top: 50%;
+color: #FFFFFF;
+}
+.forget-password-right h5 span{
+    font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+}
+.forget-password-right p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-top: 15px;
+color: #FFFFFF;
+}
+.forget-password-right a{
+    border: 1px solid #FFFFFF;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+border-radius: 5px;
+padding: 15px 0;
+text-align: center;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width:1880px) {
+
+    .forget-password{
+        max-width: 950px;
+        height: 729px;
+        
+
+    }
+    .forget-password-left input{
+        height: 48px;
+    }
+    .forget-password-left h5{
+        margin-top: 20px;
+        font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    }
+    .forget-password-right h5{
+        font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    }
+    .forget-password-right p{
+        font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    }
+    .forget-password-right a{
+        font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    }
+}
+
+@media screen and (max-width:1475px) {
+    .forget-password{
+    max-width: 950px;
+        height: 610px;
+        }
+        .forget-password-left img{
+            width: 300px;
+    height: 48px;
+        }
+
+
+}
+@media screen and (max-width:1380px) {
+    .forget-password{
+    max-width: 920px;
+    height: 570px;
+}
+
+}
+@media screen and (max-width:1200px) {
+    .forget-password{
+        max-width: 566px;
+        height: 443px;
+    }
+    .forget-password-right{
+        display: none;
+    }
+    .forget-password-left{
+        width: 100%;
+        border-radius: 8px;
+    }
+    .forget-password-left img{
+        margin-top: 10%;
+
+    }
+    .forget-password-close{
+        fill: #D92E15;
+        width: 20px;
+        height: 20px;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .forget-password {
+        max-width: 550px;
+        height: 400px;
+    }
+    .forget-password-left img{
+        width: 80%;
+    }
+    }
+    @media screen and (max-width: 650px){
+        .forget-password {
+        max-width: 450px;
+        height: 380px;
+    }
+    .forget-password-close{
+        top: 15px;
+        right: 15px;
+    }
+    }
+    @media screen and (max-width: 600px){
+    .forget-password {
+        max-width: 420px;
+        height: 360px;
+    }
+    }
+    @media screen and (max-width: 520px){
+        .forget-password {
+        max-width: 340px;
+        height: 395px;
+    }
+    .forget-password-left input::-webkit-input-placeholder{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .forget-password-left input::-moz-placeholder{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .forget-password-left input:-ms-input-placeholder{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .forget-password-left input::-ms-input-placeholder{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .forget-password-left input::placeholder{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+
+.top-right-cards{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+max-width: 580px;
+width: 100%;
+-webkit-box-pack: start;
+    -ms-flex-pack: start;
+        justify-content: start;
+position: relative;
+background: #FFFFFF;
+border-radius: 0 21px 21px 0;
+overflow: hidden;
+
+}
+
+
+.top-right-cards .item{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+    opacity: 0.6;
+    overflow: hidden;
+    border-radius: 6px 0 0 6px;
+    min-width: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+    border-radius: 0 21px 21px 0;
+}
+
+.top-right-cards .car-block-main{
+    width: 280px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 280px;
+            flex: 0 0 280px;
+    margin-bottom: 0;
+    position: relative;
+    height: 515px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 2px solid #D92E15;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.top-right-cards .car-block-main .big-img{
+    margin: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-top: 46px;
+    display: block !important;
+    max-width: 100%;
+    width: 100%;
+    height: 274px;
+}
+
+.top-item-active{
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    width: 280px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 280px;
+            flex: 0 0 280px;
+    -webkit-filter: grayscale(0) !important;
+            filter: grayscale(0) !important;
+    opacity: 1 !important;
+}
+
+
+
+.new-top-carusel-top{
+    padding: 35px 0 100px 0;
+}
+
+.new-top-carusel{
+    width: 71% !important;
+}
+.new-top-carusel-add{
+    width: 28%;
+}
+.new-top-carusel-add img {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-nav-top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:  0 auto;
+    width: 75%;
+border-radius: 17px;
+bottom: -70px;
+}
+.slider-nav-top img{
+    width: 70%;
+height: auto;
+border-radius: 8px;
+}
+.new-top-carusel-main .slick-next{
+    right: -60px;
+    width: 32.59px;
+height: 32.59px;
+background-size: 30% !important;
+background: none;
+background-position: center;
+
+    -webkit-transform: rotate(
+        180deg);
+        -ms-transform: rotate(
+        180deg);
+            transform: rotate(
+        180deg);
+        background-repeat: no-repeat;
+}
+.new-top-carusel-main .slick-prev{
+    left: -60px;
+    background-size: 30% !important;
+    background: none;
+    background-position: center;
+        -webkit-transform: rotate(
+            0deg);
+            -ms-transform: rotate(
+            0deg);
+                transform: rotate(
+            0deg);
+    width: 32.59px;
+height: 32.59px;
+background-repeat: no-repeat;
+}
+.new-top-carusel-main .slick-arrow{
+    width: 55px;
+    height: 32px;
+    border-radius: 18px;
+    border: 2px solid #ffff;
+    background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/main-casrusel-svg.svg);
+}
+.slider-nav-top img{
+    border: 2px solid transparent;
+    padding: 2px;
+}
+.slider-nav-top .slick-current img{
+    opacity: 1;
+    border: 3px solid #fff;
+}
+@media screen and (max-width:1880px) {
+
+    .new-top-carusel-add-img2 {
+        margin-top: 11px;
+    }
+    .slider-nav-top img{
+height: 31.25px;
+    }
+    .slider-nav-top{
+        padding: 0px 50px;
+}
+.new-top-carusel-main .slick-next{
+    right: -10px;
+    width: 45px;
+    height: 28px;
+}
+.new-top-carusel-main .slick-prev{
+    width: 45px;
+height: 28px;
+}
+.new-top-carusel-main .slick-prev{
+    left: -10px;
+}
+.new-top-carusel-top{
+    padding: 35px 0 80px 0;
+}
+.slider-nav-top{
+    bottom: -55px;
+}
+}
+@media screen and (max-width:1475px) {
+
+
+}
+@media screen and (max-width:1380px) {
+
+
+
+    .slider-nav-top img{
+        width: 50.53px;
+height: 25px;
+    }
+}
+@media screen and (max-width:1200px) {
+
+    .new-top-carusel .slider-for-top img {
+        height: 274px;
+    }
+
+    .new-top-carusel-add-img2 {
+        margin-top: 8px;
+    }
+
+    .slider-nav-top {
+        padding: 0px 40px;
+    }
+    .slider-nav-top{
+        width: 80%;
+    }
+    .new-top-carusel-top {
+        padding: 25px 0 65px 0;
+    }
+    .slider-nav-top {
+        bottom: -50px;
+
+    }
+    .new-top-carusel-main .slick-next {
+        right: -15px;
+    }
+    .new-top-carusel-main .slick-next {
+        right: -15px;
+    }
+}
+@media screen and (max-width:1010px) {
+
+
+.new-top-carusel-top {
+    padding: 30px 0px 10px 0;
+}
+.slider-nav-top{
+    display: none;
+    position: relative;
+    margin-top: 25px;
+}
+.new-top-carusel{
+    width: 100% !important;
+}
+
+}
+
+@media screen and (max-width:800px) {
+    .slider-nav-top{
+
+    }
+
+}
+@media screen and (max-width:550px) {
+    .new-top-carusel .slider-for-top img {
+        height: 180px;
+    }
+}
+

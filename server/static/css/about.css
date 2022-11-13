@@ -1,0 +1,54 @@
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    
+    color: #636363;
+}
+.row a{
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #D92E15;
+    margin-top: 10px !important;
+}
+li{
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+}
+span strong{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    
+    color: #223869;
+    
+}
+strong span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    
+    color: #223869;
+    
+}
+ul{
+    padding: 0;
+}

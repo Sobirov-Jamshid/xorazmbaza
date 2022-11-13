@@ -1,0 +1,288 @@
+
+html,
+body {
+    height: 100%;
+    /*background-image: url("../images/bg.png");*/
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+/* ---------- Polaris ---------- */
+.polaris header {
+    padding: 30px 0;
+    background-color: #ffffff;
+}
+
+.polaris header a img {
+    max-width: 100%;
+}
+
+.polaris footer {
+    height: 60px;
+    padding-top: 20px;
+    background-color: #373737;
+    color: #ffffff;
+}
+
+.polaris .banner img {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.polaris .banner a:hover img {
+    opacity: .85;
+}
+
+.polaris .main-menu {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #005384;
+}
+
+.polaris .main-menu .navbar-nav > li > a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.polaris .main-menu .navbar-nav > .active > a,
+.polaris .main-menu .navbar-nav > li > a:hover {
+    color: #ffffff;
+    background-color: #002662;
+}
+
+.polaris .main-menu .navbar-toggle {
+    background-color: #002662;
+}
+
+.polaris .main-menu .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+
+/* ---------- Videos ---------- */
+.polaris .videos a {
+    margin-bottom: 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+}
+
+.polaris .videos a:hover img {
+    opacity: .75;
+}
+
+.polaris .videos a img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ---------- Slider ---------- */
+.polaris .slider .slide a {
+    outline: none;
+}
+
+.polaris .slider img {
+    width: 100%;
+}
+
+.polaris .slider .slick-arrow {
+    top: 50%;
+    z-index: 1;
+    font-size: 3.6em;
+    color: #ffffff;
+    line-height: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.polaris .slider .slick-arrow:hover {
+    color: #005384;
+}
+
+.polaris .slider .slick-arrow.fa-angle-left {
+    left: 30px;
+}
+
+.polaris .slider .slick-arrow.fa-angle-right {
+    right: 30px;
+}
+
+/* ---------- Categories ---------- */
+.polaris .content {
+    padding: 15px 0;
+}
+
+.polaris .category a {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.polaris .category a:hover span {
+    background-color: rgba(177, 177, 177, 0.95);
+}
+
+.polaris .home .category a img {
+    width: 60%;
+}
+
+.polaris .category a img {
+    width: 80%;
+}
+
+.polaris .category a span {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 70%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4em;
+    padding: 10px 0;
+    background-color: rgba(111, 111, 111, 0.75);
+}
+
+.polaris .footer-text {
+    margin-top: 15px;
+    padding: 30px 0;
+    border-top: 1px solid #666;
+}
+
+/* ---------- Block Name ---------- */
+.polaris .block-name {
+    color: #666;
+    display: block;
+    text-align: center;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+}
+
+/* ---------- Products Block Carousel ---------- */
+.polaris .products-block {
+    margin-bottom: 30px;
+}
+
+.polaris .products-block .carousel .item {
+    outline: none;
+    padding: 0 5px;
+}
+
+.polaris .products-block .carousel p {
+    text-align: center;
+    font-size: 1.4em;
+    color: #ffffff;
+    margin: 0;
+    background-color: #005384;
+}
+
+.polaris .products-block .carousel a {
+    display: block;
+    color: #005384;
+    outline: none;
+    font-size: 1.1em;
+    line-height: 1em;
+    padding: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #005384;
+    background-color: #ffffff;
+}
+
+.polaris .products-block .carousel a span {
+    display: block;
+    min-height: 40px;
+}
+
+.polaris .products-block .carousel a:hover img {
+    opacity: .75;
+}
+
+.polaris .products-block .carousel a img {
+    width: 100%;
+}
+
+.polaris .products-block .carousel .slick-arrow {
+    top: 50%;
+    z-index: 1;
+    font-size: 3.6em;
+    color: #999;
+    line-height: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.polaris .products-block .carousel .slick-arrow:hover {
+    color: #333;
+}
+
+.polaris .products-block .carousel .slick-arrow.fa-angle-left {
+    left: 30px;
+}
+
+.polaris .products-block .carousel .slick-arrow.fa-angle-right {
+    right: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 960px !important;
+    }
+
+    .polaris .kitchen-tech .category.col-md-6 a img {
+        width: 50%;
+    }
+
+    .polaris .climate-tech .category.col-md-6 a img {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .polaris .main-menu .navbar-nav > li > a {
+        font-size: .9em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .polaris .main-menu .navbar-collapse {
+        padding: 0;
+    }
+
+    .polaris .block-name span {
+        display: inline-block;
+        position: relative;
+        padding: 0 1em;
+    }
+
+    .polaris .block-name span::before,
+    .polaris .block-name span::after {
+        content: '';
+        height: 2px;
+        width: 100px;
+        background: #666;
+        position: absolute;
+        top: 50%;
+    }
+
+    .polaris .block-name span::before {
+        right: 100%;
+    }
+
+    .polaris .block-name span::after {
+        left: 100%;
+    }
+}
+
+/* ##### Polaris End ##### */

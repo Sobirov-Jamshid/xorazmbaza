@@ -1,0 +1,569 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.account-page {
+    margin-top: 50px;
+}
+
+.dalet-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 15px;
+}
+
+.account-page-main {
+    background: #D92E15;
+    -webkit-box-shadow: 0px 0px 17px #D7D7D7;
+            box-shadow: 0px 0px 17px #D7D7D7;
+    border-radius: 8px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+}
+
+.account-page-main-img-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 19px 0;
+}
+
+.account-page-main-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.account-page-main-card-block {
+    width: 161px;
+    background: #F0452C;
+    padding: 39px 0;
+    text-align: center;
+    margin-left: 1px;
+}
+
+.account-page-main-card-block p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.account-page-main-card-block h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.account-page-main-img-block img {
+    width: 88px;
+    height: 88px;
+    margin-left: 46px;
+}
+
+.account-page-main-img-block h3 {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+.account-page-bottom-information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+}
+
+.account-page-menu {
+    width: 19%;
+}
+
+.account-page-menu-start {
+    background: #F4F4F4;
+}
+
+.account-page-right {
+    width: 80%;
+}
+
+.account-page-right-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.account-page-right-main-left-start {
+    width: 50%;
+}
+
+.account-page-right-main {
+    margin-bottom: 50px;
+}
+
+.account-page-right-main-right {
+    width: 50%;
+}
+
+.account-page-right h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 15px;
+    color: #D92E15;
+}
+
+.account-page-right-main-left-block {
+    background: #FFFF;
+    border-radius: 8px 0px 0px 8px;
+    margin-top: 5px;
+    height: 50px;
+    border-right: 1px solid #C4C4C4;
+}
+
+.account-page-right-main-left-block {}
+
+.account-page-right-main-right-block {
+    background: #FFFF;
+    border-radius: 0px 8px 8px 0px;
+    margin-top: 5px;
+    height: 50px;
+    position: relative;
+    padding-right: 50px !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.account-page-right-main-right-block h5 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 45px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.account-page-right-main-left-block h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: #223869;
+}
+
+.account-page-menu-block {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 13px 0;
+    color: #474747;
+    padding-left: 45px;
+    border-bottom: 1px solid #D5D5D5;
+    position: relative;
+    background: #ffff;
+}
+
+.account-page-menu-block-active {
+    background: #D92E15;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.account-page-menu-block1::before {
+    content: "";
+    position: absolute;
+    background-image: url(https://www.mediapark.uz/themes/mpark/icons/imgs/personal-data\ 2.svg);
+}
+
+.account-page-menu-block svg {
+    fill: #474747;
+}
+
+.account-page-menu-block svg {
+    fill: #474747;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: 15px;
+}
+
+.account-page-menu-block-active svg {
+    fill: #FFFFFF;
+}
+
+.account-page-change-a {
+    bottom: -20px;
+    color: #000000;
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    right: 0;
+    top: 105%;
+}
+
+.account-page-change-a p {
+    font-size: 20px;
+    line-height: 18px;
+    position: relative;
+}
+
+.account-page-right-main {
+    position: relative;
+}
+
+.account-page-change-a img {
+    margin-right: 5px;
+}
+
+.account-page-change-a p::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background: #000000;
+    bottom: -2px;
+    right: 0;
+}
+
+.account-page-menu-block6 {
+    border: none;
+}
+
+@media screen and (max-width:1880px) {
+    .account-page-menu-block {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .account-page-main-img-block img {
+        width: 60px;
+        height: 60px;
+    }
+    .account-page-main-img-block h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .account-page-main-card-block p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .account-page-main-card-block h5 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 4px;
+    }
+    .account-page-main-card-block {
+        padding: 29px 0;
+    }
+    .account-page-right h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .account-page-right-main-left-block h5 {
+        font-size: 14px;
+        line-height: 45px;
+    }
+    .account-page-right-main-right-block h5 {
+        font-size: 14px;
+        line-height: 45px;
+    }
+    .account-page-change-a {
+        bottom: -25px;
+    }
+    .account-page-change-a p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width:1380px) {
+    .account-page-menu {
+        width: 22%;
+    }
+    .account-page-right {
+        width: 77%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .account-page-right-main-left-block h5 {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 45px;
+    }
+    .account-page-right-main-right-block h5 {
+        font-size: 12px;
+        line-height: 45px;
+    }
+    .account-page-menu-block {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .account-page-main-img-block img {
+        width: 50px;
+        height: 50px;
+    }
+    .account-page-main-img-block h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .account-page-main-card-block p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .account-page-main-card-block h5 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .account-page-main-card-block {
+        width: 155px;
+    }
+    .account-page-menu-block svg {
+        width: 18px;
+        height: 18px;
+        left: 10px;
+    }
+    .account-page-menu-block {
+        padding-left: 35px;
+    }
+    .account-page-right h4 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .account-page-change-a p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .account-page-main-card-block {
+        padding: 22px 0;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .account-page-bottom-information {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .account-page-menu {
+        width: 100%;
+    }
+    .account-page-menu-start {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border-radius: 5px;
+    }
+    .account-page-right {
+        width: 100%;
+    }
+    .account-page-menu-block svg {
+        display: none;
+    }
+    .account-page-menu-block {
+        padding: 12px 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .account-page-menu-block-active {
+        background: none;
+        color: #D92E15;
+        border-bottom: 2px solid #D92E15;
+    }
+    .account-page-menu-block {}
+    .account-page-main-img-block h3 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .account-page-main-img-block img {
+        margin-left: 14px;
+    }
+    .account-page-main {
+        margin-top: 50px;
+    }
+    .account-page-main-card-block {
+        width: 145px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .account-page-main-card-block h5 {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .account-page-main-card-block p {
+        font-size: 11px;
+    }
+    .account-page-main-img-block h3 {
+        font-size: 14px;
+        line-height: 19px;
+        margin-left: 10px;
+    }
+    .account-page-main-card-block {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .account-page-main-card {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .account-page-main-card-block {
+        width: 49.8%;
+        margin: 1px 0px;
+        margin-right: 0px;
+    }
+    .account-page-main-card {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .account-page-menu-start {
+        display: block;
+    }
+    .account-page-menu-block {
+        width: 100%;
+        text-align: left;
+        padding: 10px 15px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .account-page-menu-start {
+        overflow: hidden;
+    }
+    .account-page-menu-block-active {
+        border-bottom: none;
+        color: #FFFFFF;
+        background: #D92E15;
+        border-radius: 0px;
+    }
+    .account-page-menu-block5 {
+        border-bottom: none;
+    }
+    .account-page-menu {
+        margin-bottom: 20px;
+    }
+    .account-page-right-main-left-block {
+        height: 50px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .account-page-right-main-left-block h5 {
+        line-height: 35px;
+    }
+    .account-page-right-main-right-block h5 {
+        line-height: 35px;
+    }
+    .account-page-right-main-right-block {
+        height: 50px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .account-page-right-main-left-block h5 {}
+    .account-page-right-main-right-block h5 {}
+}
+
+@media screen and (max-width:500px) {
+    .account-page-main {
+        display: block;
+    }
+    .account-page-main-img-block {
+        padding: 14px 0;
+    }
+    .account-page-main-card-block {
+        padding: 15px 0;
+    }
+}
+
+.account-page-right-main-right .form-control {
+    height: 90%;
+    background: #EEFAFF;
+    width: 100%;
+    padding: 0px 15px;
+    display: block;
+    height: 40px;
+    background: #EEFAFF;
+    border: 0.8px solid #878787;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.account-page-right-main-right .form-group {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 4px 0;
+    width: 250px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.account-page-right-main-right-block {
+    padding: 0!important;
+}
+
+.account-page-right .w3-margin-bottom {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:700px) {
+    .account-page-right-main-right .form-group {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .account-page-right .w3-margin-bottom {
+        width: 50%;
+    }
+    .account-page-right-main-right-block h5 {
+        text-align: center;
+        margin: 0;
+    }
+    .account-page-right-main-right .form-group {
+        padding: 3px 0;
+        width: 90%;
+    }
+    .account-page-right-main-right .form-control {
+        width: 100%;
+    }
+}

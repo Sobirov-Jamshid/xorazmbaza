@@ -1,0 +1,99 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.loading-svg{
+  font-family: 'Proxima Nova Rg';
+  font-size: 6.5em;
+  font-weight: 900;
+  height: 120px;
+ color: #7e7979;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ fill: rgb(126, 121, 121);
+ -webkit-animation: pulse 1s infinite;
+         animation: pulse 1s infinite;
+ z-index: 2000;
+ overflow: hidden;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  70% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  70% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+
+
+
+
+.loading-svg-active .loading-svg-span-1{
+  color: #D92E15 ;
+}
+.loading-svg-active .loading-svg-span-2{
+  color: #223869 ;
+}
+.loading-svg-active{
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+  opacity: -100;
+  z-index: -100;
+}
+@media screen and (max-width:1200px) {
+  .loading-svg{
+  font-size: 5em;
+  height: 100px;
+  }
+}
+@media screen and (max-width:800px) {
+  .loading-svg{
+  font-size: 3.5em;
+  height: 80px;
+  }
+}
+@media screen and (max-width:500px) {
+  .loading-svg{
+  font-size: 2.5em;
+  height: 50px;
+  }
+}
+
+
+
